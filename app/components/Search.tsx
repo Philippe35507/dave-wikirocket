@@ -7,11 +7,12 @@ export default function Search() {
   const [search, setSearch] = useState("");
   const router = useRouter();
 
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSearch("");
-    router.push("/${search}/");
+    router.push(`/${search}/`);
   };
+
   return (
     <form
       className="w-50 flex justify-center md:justify-between"
