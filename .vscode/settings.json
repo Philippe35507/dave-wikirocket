@@ -1,6 +1,6 @@
 {
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.quoteStyle": "double",
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false
 }
